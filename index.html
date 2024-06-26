@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Угадывание пароля</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Угадайте пароль</h1>
+        <input type="text" id="passwordInput" placeholder="Введите пароль">
+        <button id="checkPasswordBtn">Проверить пароль</button>
+        <div id="result"></div>
+        <div id="imageContainer">
+            <img id="resultImage" src="success_image.jpg" style="display: none;">
+        </div>
+    </div>
+
+    <!-- Аудио для фона -->
+    <audio id="backgroundMusic" loop>
+        <source src="music.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <!-- Аудио для успеха -->
+    <audio id="successMusic">
+        <source src="music2.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <script src="script.js"></script>
+</body>
+</html>
