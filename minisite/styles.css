@@ -1,0 +1,47 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+}
+
+input, button {
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #444;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+button:hover {
+    background-color: #666;
+    box-shadow: 0 0 10px white;
+}
+
+input:focus, button:focus {
+    outline: none;
+}
+
+#message img {
+    max-width: 100%;
+    height: auto;
+}
+
+#message {
+    margin-top: 20px;
+}
+
