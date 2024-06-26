@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', function() {
+ddocument.addEventListener('DOMContentLoaded', function() {
     var backgroundMusic = document.getElementById('backgroundMusic');
     var successMusic = document.getElementById('successMusic');
 
